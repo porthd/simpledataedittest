@@ -1,6 +1,8 @@
 # TYPO3 extension "simpledataedittest"
 
-(translateds by goole - original german see Documentation/de.README.md)
+The current version is NOT tested. It will fail p almost certainly.
+
+(translateds by google - original german see Documentation/de.README.md)
 
 ## Preliminary remark
 Detaching the tests from the extension `simpledataedit` was important to me.
