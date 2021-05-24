@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:simpledataedit="http://www.mobger.de/ns-simpledataedit-typo3-extension"
+      data-namespace-typo3-fluid="true">
+<head>
+    <title> template for test of viewhelper simpledataedit:editor and simpledataedit:yamlor  </title>
+    <!--
+        /**
+        *
+        * This file is part of the "dreipunktnull Glossar" Extension for TYPO3 CMS.
+        *
+        * For the full copyright and license information, please read the
+        * LICENSE.txt file that was distributed with this source code.
+        * This  is part of the example-extension `simpledataedittest`.
+        *
+        * (c) Mai 2021 Dr. Dieter Porth <info@mobger.de> - Freelancer, Bremen.
+        *
+        ***/
+    -->
+</head>
+<body>
+<f:section name="Main">
+
+<f:if condition="{settings.flagYaml}">
+    <f:then>
+        <simpledataedit:editor
+            editor="porthd-testplaintext"   pid="{main.pid}"    raw="{main.description}"
+            fieldname="description"          table="tx_simpledataedittest_domain_model_main"  identname="uid"     uid="{main.uid}"    type="2"
+            paramList=""                   always="false"      roles=""
+        >
+            {main.description}
+        </simpledataedit:editor>
+    </f:then>
+    <f:else>
+        <simpledataedit:yamlor ident="plain-test-descript" object="{main}" >
+            {main.description}
+        </simpledataedit:yamlor>
+    </f:else>
+</f:if>
+
+</f:section>
+</body>
+</html>

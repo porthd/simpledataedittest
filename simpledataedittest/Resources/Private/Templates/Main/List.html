@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:simpledataedit="http://www.mobger.de/ns-simpledataedit-typo3-extension"
+      data-namespace-typo3-fluid="true">
+<head>
+    <title>main list for test-date for frontend-editing</title>
+<!--
+    /**
+    *
+    * This file is part of the "dreipunktnull Glossar" Extension for TYPO3 CMS.
+    *
+    * For the full copyright and license information, please read the
+    * LICENSE.txt file that was distributed with this source code.
+    * This  is part of the example-extension `simpledataedittest`.
+    *
+    * (c) April 2021 Dr. Dieter Porth <info@mobger.de> - Freelancer, Bremen.
+    *
+    ***/
+-->
+</head>
+<body>
+<f:layout name="Default" />
+
+<f:section name="HeaderAssets">
+    <link href="{f:uri.resource(path:'Stylesheets\BasicStyle.css',extensionName:'simpledataedittest')}" rel="stylesheet" />
+</f:section>
+
+<f:section name="Main">
+    <h1>Listing for Main</h1>
+
+    <f:flashMessages />
+
+
+    <f:for each="{mains}" as="main">
+        <table  class="tx_simpledataedittest" >
+            <colgroup>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <f:render partial="Main/Row/MainSingle"
+                      section="Main"
+                      arguments="{main:main}"
+            />
+        </table>
+
+    </f:for>
+
+</f:section>
+</body>
+</html>

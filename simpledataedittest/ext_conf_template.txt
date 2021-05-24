@@ -1,0 +1,2 @@
+# cat=simpledataedittest/testing; type=int; label=LLL:EXT:simpledatatedittest/Resources/Private/Language/locallang_db.xlf:extension.template.constants.testdataFolder.pageId
+testDataFolderPid = 1

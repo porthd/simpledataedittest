@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:simpledataedittest/Resources/Private/Language/locallang" date="2021-04-10T10:51:04Z" product-name="simpledataedittest">
+		<header/>
+		<body>
+			<!-- text for overridden TYPO3-fluid-templates -->
+			<trans-unit id="simpledataedit.message.templateUndefined.1">
+				<source><![CDATA[
+                    <h2>No Example defined</h2>
+                    <div>For ths content-element for the CType `%s` is missing a simpledataedit-example. It may be defined later.</div>
+                    <div><strong>Try the content-element `text`.</strong></div>
+                ]]></source>
+				<target><![CDATA[
+                    <h2>Kein Beispiel definiert</h2>
+                    <div>Für das Content-Element mit dem CType `%s` fehlt eine Beispiel mit simpledataedit. Vielleicht kommt es in Zukunft.</div>
+                    <div><strong>Probiere das Content-Element `text`.</strong></div>
+                ]]></target>
+			</trans-unit>
+
+			<!-- text for data-source-table for the testing-plugin  -->
+			<!-- Partials\Main\Row\MainSingle.html -->
+			<trans-unit id="tx_simpledataedittest_domain_model_main" resname="tx_simpledataedittest_domain_model_main">
+				<source>Main</source>
+				<target>Hauptordner</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.description" resname="tx_simpledataedittest_domain_model_main.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_rte" resname="tx_simpledataedittest_domain_model_main.my_rte">
+				<source>My Rich-Text-Editor</source>
+				<target>Mein Rich-Text-Editor</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.title" resname="tx_simpledataedittest_domain_model_main.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_percent" resname="tx_simpledataedittest_domain_model_main.my_percent">
+				<source>My Percent</source>
+				<target>Mein Zahl mit Prozentzeichen</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_money" resname="tx_simpledataedittest_domain_model_main.my_money">
+				<source>My Money</source>
+				<target>Mein Geld mit Währungszeichen</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_float" resname="tx_simpledataedittest_domain_model_main.my_float">
+				<source>My Float</source>
+				<target>Mein Nachkommazahl</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_integer" resname="tx_simpledataedittest_domain_model_main.my_integer">
+				<source>My Integer</source>
+				<target>Meine ganze Zahl</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_boolean" resname="tx_simpledataedittest_domain_model_main.my_boolean">
+				<source>My Boolean</source>
+				<target>Mein Wahrheitswert</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_time" resname="tx_simpledataedittest_domain_model_main.my_time">
+				<source>My Time</source>
+				<target>Meine Uhrzeit</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_timesstamp" resname="tx_simpledataedittest_domain_model_main.my_timesstamp">
+				<source>My Timesstamp</source>
+				<target>Mein Zeitstempel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_datetime" resname="tx_simpledataedittest_domain_model_main.my_datetime">
+				<source>My Datetime</source>
+				<target>Mein Datum und Uhrzeit</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_images" resname="tx_simpledataedittest_domain_model_main.my_images">
+				<source>My Images</source>
+				<target>Meine Bilder</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_files" resname="tx_simpledataedittest_domain_model_main.my_files">
+				<source>My Files</source>
+				<target>Meine Dateien</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_list" resname="tx_simpledataedittest_domain_model_main.my_list">
+				<source>My List</source>
+				<target>Meine Liste</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_children" resname="tx_simpledataedittest_domain_model_main.my_children">
+				<source>My Children</source>
+				<target>Meine Kinder</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_parent" resname="tx_simpledataedittest_domain_model_main.my_parent">
+				<source>My Parent-Data</source>
+				<target>Mein Elter-Datum</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_peergroup" resname="tx_simpledataedittest_domain_model_main.my_peergroup">
+				<source>My Peergroup</source>
+				<target>Meine Peergroup</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_images.noData" resname="tx_simpledataedittest_domain_model_main.my_images.moData">
+				<source>--- 0 images ---</source>
+				<target>--- 0 Bilder ---</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_files.noData" resname="tx_simpledataedittest_domain_model_main.my_files.moData">
+				<source>--- 0 files ---</source>
+				<target>--- 0 Dateien ---</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_list.noData" resname="tx_simpledataedittest_domain_model_main.my_list.moData">
+				<source>--- 0 items (Predefined List) ---</source>
+				<target>--- 0 Listeneintrag (vordefiniert) ---</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_children.noData" resname="tx_simpledataedittest_domain_model_main.my_children.moData">
+				<source>--- 0 child (1:N) ---</source>
+				<target>--- 0 Kinder (1:N) ---</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_parent.noData" resname="tx_simpledataedittest_domain_model_main.my_parent.moData">
+				<source>--- 0 parent-data (N:1) ---</source>
+				<target>--- 0 Elter-Daten (N:1) ---</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_peer.noData" resname="tx_simpledataedittest_domain_model_main.my_peer.moData">
+				<source>--- 0 peer-data (M:N) ---</source>
+				<target>--- 0 Peergruppen-Daten (M:N) ---</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_child" resname="tx_simpledataedittest_domain_model_child">
+				<source>Child</source>
+				<target>Kind</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_child.title" resname="tx_simpledataedittest_domain_model_child.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_child.description" resname="tx_simpledataedittest_domain_model_child.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_progenitor" resname="tx_simpledataedittest_domain_model_progenitor">
+				<source>My Parent-Data</source>
+				<target>Elter-Datum</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_progenitor.title" resname="tx_simpledataedittest_domain_model_progenitor.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_progenitor.description" resname="tx_simpledataedittest_domain_model_progenitor.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_peer" resname="tx_simpledataedittest_domain_model_peer">
+				<source>Peer</source>
+				<target>Peer</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_peer.title" resname="tx_simpledataedittest_domain_model_peer.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_peer.description" resname="tx_simpledataedittest_domain_model_peer.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_lister.name" resname="tx_simpledataedittest_lister.name">
+				<source>Lister</source>
+				<target>Lister</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_lister.description" resname="tx_simpledataedittest_lister.description">
+				<source>Shows, how to use the viewhelper editor in templates.</source>
+				<target>Zeigt, wie der Viewhelper-Editor in Vorlagen verwendet wird.</target>
+			</trans-unit>
+
+			<!-- funmodule factorize -->
+			<trans-unit id="factorize.template.factorize.mainHeader.title.fixed" resname="factorize.template.factorize.mainHeader.title.fixed">
+				<source>Fun-Module Factorize</source>
+				<target>Fun-Modul Faktorisierung</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.warning.recalulated.number.title.fixed" resname="factorize.template.factorize.warning.recalulated.number.title.fixed">
+				<source>The number was recaluclated. Only use digits and make sure, that your number is odd. (input: %s => base of caluclation: %s )</source>
+				<target>Die Eingabe wurde umgearbeitet. Bitte sicherstellen, dass nur Ziffer verwendet werden und dass die Nummer ungerade ist. (Eingabe: %s => Zahl in berechnung: %s )</target>
+			</trans-unit>
+			<!-- partial for the inputform -->
+			<trans-unit id="factorize.template.factorize.mainPart.form.title.fixed" resname="factorize.template.factorize.mainPart.form.title.fixed">
+				<source>Inputform for number to factorize</source>
+				<target>Eingabeformular für zu faktorisierende Zahl</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.form.labelNumber" resname="factorize.template.factorize.resultPart.factor.form.labelNumber">
+				<source>Input odd number</source>
+				<target>Ungrade ganze Zahl eingeben</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.form.remark" resname="factorize.template.factorize.resultPart.factor.form.remark">
+				<source><![CDATA[
+					Please note the following when entering:
+					<ol>
+						<li> All characters except digits will be deleted before factorization. </li>
+						<li> Grade numbers are reduced to an odd factor in advance. </li>
+						<li> If necessary, the PHP time limit can prevent a calculation. </li>
+					</ol>
+				]]></source>
+				<target><![CDATA[
+					Folgendes ist bei der Eingabe zu beachten:
+					<ol>
+						<li>Alle Zeichen außer Ziffern wird vorm Faktorisieren gelöscht. </li>
+						<li>Grade Zahlen werden vorab auf ungraden Faktor reduziert.</li>
+						<li>Gegebenefalls kann das PHP-Zeitlimit eine Berechnung verhindern.</li>
+					</ol>
+				]]></target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.form.submit" resname="factorize.template.factorize.resultPart.factor.form.submit">
+				<source>Start Factorizing</source>
+				<target>Start Faktorisierung</target>
+			</trans-unit>
+			<!-- partial for the results -->
+			<trans-unit id="factorize.template.factorize.mainPart.result.title.fixed" resname="factorize.template.factorize.mainPart.result.title.fixed">
+				<source>Results</source>
+				<target>Ergebnisse</target>
+			</trans-unit>
+			<!-- partial for the results -->
+			<trans-unit id="factorize.template.factorize.resultPart.factor.title.fixed" resname="factorize.template.factorize.resultPart.factor.title.fixed">
+				<source>First Factorizing</source>
+				<target>Erste Faktorisierung</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factorResult.title.fixed" resname="factorize.template.factorize.resultPart.factorResult.title.fixed">
+				<source>First Factorizing</source>
+				<target>Erste Faktorisierung</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.remark.timegap.1" resname="factorize.template.factorize.resultPart.factor.remark.timegap.1">
+				<source>It needed %s seconds for calculation.</source>
+				<target>Die Berechnung dauerte %s Sekunden.</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.notify.factorize.product" resname="factorize.template.factorize.resultPart.notify.factorize.product">
+				<source>The product could be factored successfully. The specific products can possibly. further factorized.</source>
+				<target>Das Produkt konnte erfolgreich faktorisiert werden. Die bestimmten Produkten können ggfls. weiter faktorisiert werden.</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.notify.prime.product" resname="factorize.template.factorize.resultPart.notify.prime.product">
+				<source>The product could not be factored successfully. The number is prime.</source>
+				<target>Das Produkt konnte nicht erfolgreich faktorisiert werden. Die Zahl ist prim.</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.row.product" resname="factorize.template.factorize.resultPart.factor.row.product">
+				<source>Raw input for the number</source>
+				<target>Roh-Eingabe für die Zahl</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.row.smalFactor" resname="factorize.template.factorize.resultPart.factor.row.smalFactor">
+				<source>Factor with a maximum of half the bit length of the product</source>
+				<target>Faktor mit höchstens halber Bitlänge des Produkts</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.row.bigFactor" resname="factorize.template.factorize.resultPart.factor.row.bigFactor">
+				<source>Factor rounded off at least half the bit length of the product</source>
+				<target>Faktor mit mindestens abgerundet halber Bitlänge des Produkts</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.form.labelFactorLeft" resname="factorize.template.factorize.resultPart.factor.form.labelFactorLeft">
+				<source>Info about used factor left</source>
+				<target>Information zum genutzten Faktor links</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.form.labelFactorRight" resname="factorize.template.factorize.resultPart.factor.form.labelFactorRight">
+				<source>Info about used factor right</source>
+				<target>Information zum genutzten Faktor rechts</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.row.infoLeft" resname="factorize.template.factorize.resultPart.factor.row.infoLeft">
+				<source>Info about used factor left</source>
+				<target>Information zum genutzten Faktor links</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.factor.row.infoRight" resname="factorize.template.factorize.resultPart.factor.row.infoRight">
+				<source>Info about used factor right</source>
+				<target>Information zum genutzten Faktor rechts</target>
+			</trans-unit>
+			<!-- partial for the calulationssatistics -->
+			<trans-unit id="factorize.template.factorize.resultPart.statistic.title.fixed" resname="factorize.template.factorize.resultPart.statistic.title.fixed">
+				<source>statistics about factorizing</source>
+				<target>Statistiken zur Faktorisierung</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.statistic.title.global" resname="factorize.template.factorize.resultPart.statistic.title.global">
+				<source>Counts over all bit-length-variations </source>
+				<target>Zählungen gemeinsam für alle Bit-Längen-Proportionen</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.statistic.title.vary" resname="factorize.template.factorize.resultPart.statistic.title.vary">
+				<source>Counts for each bit-length-variation </source>
+				<target>Zählungen für Ereignisse separat für jede Bit-Längen-Variation</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.tableHeader.count.deep" resname="factorize.template.factorize.resultPart.tableHeader.count.deep">
+				<source>Bit-Index</source>
+				<target>Bit-Index</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.tableHeader.count.vary" resname="factorize.template.factorize.resultPart.tableHeader.count.vary">
+				<source>bit-length-variation</source>
+				<target>Bit-Längen-Verhältnis</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.tableHeader.count.logger" resname="factorize.template.factorize.resultPart.tableHeader.count.logger">
+				<source>checks</source>
+				<target>checks</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.tableHeader.count.okay" resname="factorize.template.factorize.resultPart.tableHeader.count.okay">
+				<source>okay-checks</source>
+				<target>Okay-Checks</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.tableHeader.count.fail" resname="factorize.template.factorize.resultPart.tableHeader.count.fail">
+				<source>fail-checks</source>
+				<target>Fehler-Check</target>
+			</trans-unit>
+			<trans-unit id="factorize.template.factorize.resultPart.tableHeader.count.never" resname="factorize.template.factorize.resultPart.tableHeader.count.never">
+				<source>never-check</source>
+				<target>niemals-Check</target>
+			</trans-unit>
+
+			<!-- Partials\Main\Row\SingleRelationData.html -->
+			<trans-unit id="general.partial.relatedObject.field.title" resname="general.partial.relatedObject.field.title">
+				<source>title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="general.partial.relatedObject.field.description" resname="general.partial.relatedObject.field.description">
+				<source>description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,27 @@
+{
+    "name": "porthd/simpledataedittest",
+    "type": "typo3-cms-extension",
+    "description": "Extension which shows, how to use the extension simpladataedit in different workcases",
+    "authors": [
+        {
+            "name": "Dr. Dieter Porth",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Porthd\\Simpledataedittest\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Porthd\\Simpledataedittest\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/simpledataedittest": "self.version"
+    }
+}

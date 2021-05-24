@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:simpledataedittest/Resources/Private/Language/locallang_db" date="2021-04-10T10:51:04Z" product-name="simpledataedittest">
+		<header/>
+		<body>
+			<!-- names for testing-plugins  -->
+			<trans-unit id="simpleDataEdit.plugin.name.lister.title">
+				<source>Lister of testdata for test of EXT `simpledataedit`</source>
+				<target>Lister of testdata für den Test von EXT `simpledataedit`</target>
+			</trans-unit>
+			<trans-unit id="simpleDataEdit.plugin.name.factorize.title">
+				<source>Factorize - fun-algorithm to factorize a product by reverse-multiplication</source>
+				<target>Faktorisieren - Spaßalgorithmus zum Faktorisieren eines Produkts durch umgekehrte Multiplikation</target>
+			</trans-unit>
+			<!-- text for data-source-table for the testing-plugin  -->
+			<trans-unit id="simpleDataEdit.testLayout.title">
+				<source>Test page (backend-laout) for SimpleDataEdit</source>
+				<target>Testseite (Backend-Layout) für SimpleDataEdit</target>
+			</trans-unit>
+			<trans-unit id="simpleDataEdit.testLayout.testCol">
+				<source>Test column with special `colPos` (= 7387; only?) for SimpleDataEdit</source>
+				<target>Testspalte mit besonderer `colPos` (= 7387; nur?) für SimpleDataEdit</target>
+			</trans-unit>
+
+			<!-- text for data-source-table for the testing-plugin  -->
+			<trans-unit id="tx_simpledataedittest_domain_model_main" resname="tx_simpledataedittest_domain_model_main">
+				<source>Main</source>
+				<target>Hauptordner</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.description" resname="tx_simpledataedittest_domain_model_main.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_rte" resname="tx_simpledataedittest_domain_model_main.my_rte">
+				<source>My Rich-Text-Editor</source>
+				<target>Mein Rich-Text-Editor</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.title" resname="tx_simpledataedittest_domain_model_main.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_percent" resname="tx_simpledataedittest_domain_model_main.my_percent">
+				<source>My Percent</source>
+				<target>Mein Zahl mit Prozentzeichen</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_money" resname="tx_simpledataedittest_domain_model_main.my_money">
+				<source>My Money</source>
+				<target>Mein Geld mit Währungszeichen</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_float" resname="tx_simpledataedittest_domain_model_main.my_float">
+				<source>My Float</source>
+				<target>Mein Nachkommazahl</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_integer" resname="tx_simpledataedittest_domain_model_main.my_integer">
+				<source>My Integer</source>
+				<target>Meine ganze Zahl</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_boolean" resname="tx_simpledataedittest_domain_model_main.my_boolean">
+				<source>My Boolean</source>
+				<target>Mein Wahrheitswert</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_time" resname="tx_simpledataedittest_domain_model_main.my_time">
+				<source>My Time</source>
+				<target>Meine Uhrzeit</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_timesstamp" resname="tx_simpledataedittest_domain_model_main.my_timesstamp">
+				<source>My Timesstamp</source>
+				<target>Mein Zeitstempel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_datetime" resname="tx_simpledataedittest_domain_model_main.my_datetime">
+				<source>My Datetime</source>
+				<target>Mein Datum und Uhrzeit</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_images" resname="tx_simpledataedittest_domain_model_main.my_images">
+				<source>My Images</source>
+				<target>Meine Bilder</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_files" resname="tx_simpledataedittest_domain_model_main.my_files">
+				<source>My Files</source>
+				<target>Meine Dateien</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_list" resname="tx_simpledataedittest_domain_model_main.my_list">
+				<source>My List</source>
+				<target>Meine Liste</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_children" resname="tx_simpledataedittest_domain_model_main.my_children">
+				<source>My Children</source>
+				<target>Meine Kinder</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_parent" resname="tx_simpledataedittest_domain_model_main.my_parent">
+				<source>My Parent-Data</source>
+				<target>Mein Elter-Datum</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_main.my_peergroup" resname="tx_simpledataedittest_domain_model_main.my_peergroup">
+				<source>My Peergroup</source>
+				<target>Meine Peergroup</target>
+			</trans-unit>
+
+			<!-- tablename for table with 1:n-child-relation to main -->
+			<trans-unit id="tx_simpledataedittest_domain_model_child" resname="tx_simpledataedittest_domain_model_child">
+				<source>Child</source>
+				<target>Kind</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_child.title" resname="tx_simpledataedittest_domain_model_child.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_child.description" resname="tx_simpledataedittest_domain_model_child.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+
+			<!-- tablename for table with m:1-progenitor-relation to main -->
+			<trans-unit id="tx_simpledataedittest_domain_model_progenitor" resname="tx_simpledataedittest_domain_model_progenitor">
+				<source>Model of Parent-Datas</source>
+				<target>Tabelle meiner Elter-Daten</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_progenitor.title" resname="tx_simpledataedittest_domain_model_progenitor.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_progenitor.description" resname="tx_simpledataedittest_domain_model_progenitor.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+
+			<!-- tablename for table with m:n-peers-relation to main -->
+			<trans-unit id="tx_simpledataedittest_domain_model_peer" resname="tx_simpledataedittest_domain_model_peer">
+				<source>Peer</source>
+				<target>Peer</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_peer.title" resname="tx_simpledataedittest_domain_model_peer.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_domain_model_peer.description" resname="tx_simpledataedittest_domain_model_peer.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+
+			<!-- plugin for testing -->
+			<trans-unit id="tx_simpledataedittest_lister.name" resname="tx_simpledataedittest_lister.name">
+				<source>Lister</source>
+				<target>Lister</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_lister.description" resname="tx_simpledataedittest_lister.description">
+				<source>Shows, how to use the viewhelper editor in templates.</source>
+				<target>Zeigt, wie der Viewhelper-Editor in Vorlagen verwendet wird.</target>
+			</trans-unit>
+			<!-- plugin for fun -->
+			<trans-unit id="tx_simpledataedittest_factorize.description" resname="tx_simpledataedittest_factorize.description">
+				<source>Factor a number using an exclusionary principle. Starting with the last bit of a product, an attempt is made to derive the associated factors.</source>
+				<target>Faktorisiere eine Zahl nach einem Ausschlussprinzip. Beginnend beim letzten Bit eines Produkts wird versucht, die dazugehörigen Faktoren abzuleiten.</target>
+			</trans-unit>
+			<trans-unit id="tx_simpledataedittest_factorize.name" resname="tx_simpledataedittest_factorize.name">
+				<source>Fun Modul Factorize</source>
+				<target>Fun Module Faktorisierung</target>
+			</trans-unit>
+
+			<trans-unit id="extension.template.constants.testdataFolder.pageId" resname="extension.template.constants.testdataFolder.pageId">
+				<source>TestFolder-PID: Page-ID of manually added sysfolder for testdatas</source>
+				<target>TestFolder-PID: Seiten-ID des manuell eingefügten System-ordner für die Testdaten</target>
+			</trans-unit>
+
+			<!-- Plugin liste - settings via flexform -->
+			<trans-unit id="settings.simpledataedittest.FlexTitle" resname="settings.simpledataedittest.FlexTitle">
+				<source>Settings for test of viewhelper from EXT simpldateedit</source>
+				<target>Einstellungen für den Test der Viewhelper der EXT simpladatedit</target>
+			</trans-unit>
+			<trans-unit id="settings.simpledataedittest.flagYamlor" resname="settings.simpledataedittest.flagYamlor">
+				<source>Use detailed definition (=false) or Yaml-structured definition (=true)</source>
+				<target>Nutze detailierte Definition (=false) oder Yaml-strukurierte Definition (=wahr)</target>
+			</trans-unit>
+			<trans-unit id="settings.simpledataedittest.allowedRoles" resname="settings.simpledataedittest.allowedRoles">
+				<source>allowed roles of backend-user-roles for Frontendediting: no rule => all backend-user allowed</source>
+				<target>Erlaubte Backend-User-Rollen fürs Frontend-Editing: kein Angabe = alle Backend-User erlaubt</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

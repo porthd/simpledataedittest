@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:simpledataedit="http://www.mobger.de/ns-simpledataedit-typo3-extension"
+      data-namespace-typo3-fluid="true">
+<head>
+    <title> Template for statistics of the factorize-algorithm </title>
+    <!--
+        /**
+        *
+        * This file is part of the "dreipunktnull Glossar" Extension for TYPO3 CMS.
+        *
+        * For the full copyright and license information, please read the
+        * LICENSE.txt file that was distributed with this source code.
+        * This  is part of the example-extension `simpledataedittest`.
+        *
+        * (c) Mai 2021 Dr. Dieter Porth <info@mobger.de> - Freelancer, Bremen.
+        *
+        ***/
+    -->
+</head>
+<body>
+
+<f:section name="Main">
+    <h3>
+        <f:translate key="factorize.template.factorize.resultPart.statistic.title.fixed"
+                     extensionName="simpledataedittest"
+        />
+    </h3>
+    <f:render partial="StatisticsTableGlobal"
+              section="Main"
+              arguments="{_all}"
+    />
+    <f:render partial="StatisticsTableVary"
+              section="Main"
+              arguments="{_all}"
+    />
+
+</f:section>
+</body>
+</html>

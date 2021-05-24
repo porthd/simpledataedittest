@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:simpledataedittest/Resources/Private/Language/locallang_csh" date="2021-04-10T10:51:04Z" product-name="simpledataedittest">
+		<header/>
+		<body>
+			<trans-unit id="description.description" resname="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="my_rte.description" resname="my_rte.description">
+				<source>myRte</source>
+			</trans-unit>
+			<trans-unit id="title.description" resname="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="my_percent.description" resname="my_percent.description">
+				<source>myPercent</source>
+			</trans-unit>
+			<trans-unit id="my_money.description" resname="my_money.description">
+				<source>myMoney</source>
+			</trans-unit>
+			<trans-unit id="my_float.description" resname="my_float.description">
+				<source>myFloat</source>
+			</trans-unit>
+			<trans-unit id="my_integer.description" resname="my_integer.description">
+				<source>myInteger</source>
+			</trans-unit>
+			<trans-unit id="my_boolean.description" resname="my_boolean.description">
+				<source>myBoolean</source>
+			</trans-unit>
+			<trans-unit id="my_time.description" resname="my_time.description">
+				<source>myTime</source>
+			</trans-unit>
+			<trans-unit id="my_timesstamp.description" resname="my_timesstamp.description">
+				<source>myTimesstamp</source>
+			</trans-unit>
+			<trans-unit id="my_datetime.description" resname="my_datetime.description">
+				<source>myDatetime</source>
+			</trans-unit>
+			<trans-unit id="my_images.description" resname="my_images.description">
+				<source>myImages</source>
+			</trans-unit>
+			<trans-unit id="my_files.description" resname="my_files.description">
+				<source>myFiles</source>
+			</trans-unit>
+			<trans-unit id="my_list.description" resname="my_list.description">
+				<source>myList</source>
+			</trans-unit>
+			<trans-unit id="my_children.description" resname="my_children.description">
+				<source>myChildren</source>
+			</trans-unit>
+			<trans-unit id="my_progenitor.description" resname="my_progenitor.description">
+				<source>myProgenitor</source>
+			</trans-unit>
+			<trans-unit id="my_peergroup.description" resname="my_peergroup.description">
+				<source>myPeergroup</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

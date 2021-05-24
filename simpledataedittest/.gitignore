@@ -1,0 +1,8 @@
+/vendor/
+.idea
+~*.*
+202*.*
+203*.*
+204*.*
+
+simpledataedit*.zip

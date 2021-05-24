@@ -1,0 +1,27 @@
+mod {
+    web_layout {
+        BackendLayouts {
+            simpledataedittest {
+                title = LLL:EXT:simpledataedittest/Resources/Private/Language/locallang_db.xlf:simpleDataEdit.testLayout.title
+                config {
+                    backend_layout {
+                        colCount = 1
+                        rowCount = 1
+                        rows {
+                            1 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:simpledataedittest/Resources/Private/Language/locallang_db.xlf:simpleDataEdit.testLayout.testCol
+                                        colPos = 7387
+                                        colspan = 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                icon = EXT:simpledataedittest/Resources/Public/Icons/TestPage.svg
+            }
+        }
+    }
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="de"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:simpledataedit="http://www.mobger.de/ns-simpledataedit-typo3-extension"
+      data-namespace-typo3-fluid="true">
+<head>
+    <title> template list of values in table </title>
+    <!--
+        /**
+        *
+        * This file is part of the "dreipunktnull Glossar" Extension for TYPO3 CMS.
+        *
+        * For the full copyright and license information, please read the
+        * LICENSE.txt file that was distributed with this source code.
+        * This  is part of the example-extension `simpledataedittest`.
+        *
+        * (c) Mai 2021 Dr. Dieter Porth <info@mobger.de> - Freelancer, Bremen.
+        *
+        ***/
+    -->
+</head>
+<body>
+
+<f:section name="Main">
+    <tr>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.description"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_rte"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.title"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_percent"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_money"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_float"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_integer"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_boolean"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_time"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_timesstamp"/>
+        </th>
+        <th scope="col">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_datetime"/>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <f:comment><!-- field description --></f:comment>
+            <f:render partial="Main/EditorTest/PlainText" section="Main"
+                      arguments="{main: main, flagYaml: settings.flagYaml}"
+            />
+        </td>
+        <td>{main.myRte}</td>
+        <td>{main.title}</td>
+        <td>{main.myPercent}</td>
+        <td>{main.myMoney}</td>
+        <td>{main.myFloat}</td>
+        <td>{main.myInteger}</td>
+        <td>{main.myBoolean}</td>
+        <td>{main.myTime}</td>
+        <td>{main.myTimesstamp -> f:format.date()}</td>
+        <td>{main.myDatetime -> f:format.date()}</td>
+    </tr>
+    <tr>
+        <th scope="row" colspan="3">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_images"/>
+        </th>
+        <td colspan="8">
+            <ul>
+                <f:if condition="{main.myImages->f:count()}">
+                    <f:then>
+                        <f:for each="{main.myImages}" as="image">
+                            <li>
+                                {image.originalResource.name}
+                            </li>
+                        </f:for>
+                    </f:then>
+                    <f:else>
+                        <li>
+                            <f:translate key="tx_simpledataedittest_domain_model_main.my_images.noData"/>
+                        </li>
+                    </f:else>
+                </f:if>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" colspan="3">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_files"/>
+        </th>
+        <td colspan="8">
+            <ul>
+                <f:if condition="{main.myFiles->f:count()}">
+                    <f:then>
+                        <f:for each="{main.myFiles}" as="file">
+                            <li>
+                                {file.originalResource.name}
+                            </li>
+                        </f:for>
+                    </f:then>
+                    <f:else>
+                        <li>
+                            <f:translate key="tx_simpledataedittest_domain_model_main.my_files.noData"/>
+                        </li>
+                    </f:else>
+                </f:if>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" colspan="3">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_list"/>
+        </th>
+        <td colspan="8">
+            <ul>
+                <f:if condition="{main.myList->f:count()}">
+                    <f:then>
+                        <f:for each="{main.myList}" as="value">
+                            <li>
+                                {value}
+                            </li>
+                        </f:for>
+                    </f:then>
+                    <f:else>
+                        <li>
+                            <f:translate key="tx_simpledataedittest_domain_model_main.my_list.noData"/>
+                        </li>
+                    </f:else>
+                </f:if>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" colspan="3">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_children"/>
+        </th>
+        <td colspan="8">
+            <ul>
+                <f:if condition="{main.myChildren->f:count()}">
+                    <f:then>
+                        <f:for each="{main.myChildren}" as="child">
+                            <li>
+                                <f:render partial="Main/Row/SingleRelationData"
+                                          section="Main"
+                                          arguments="{main:child}"
+                                />
+                            </li>
+                        </f:for>
+                    </f:then>
+                    <f:else>
+                        <li>
+                            <f:translate key="tx_simpledataedittest_domain_model_main.my_children.noData"/>
+                        </li>
+                    </f:else>
+                </f:if>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" colspan="3">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_progenitor"/>
+        </th>
+        <td colspan="8">
+            <ul>
+                <f:if condition="{main.myProgenitor->f:count()}">
+                    <f:then>
+                        <f:for each="{main.myProgenitor}" as="myProgenitor">
+                            <li>
+                                <f:render partial="Main/Row/SingleRelationData"
+                                          section="Main"
+                                          arguments="{main:myProgenitor}"
+                                />
+
+                            </li>
+                        </f:for>
+                    </f:then>
+                    <f:else>
+                        <li>
+                            <f:translate key="tx_simpledataedittest_domain_model_main.my_progenitor.noData"/>
+                        </li>
+                    </f:else>
+                </f:if>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" colspan="3">
+            <f:translate key="tx_simpledataedittest_domain_model_main.my_peer"/>
+        </th>
+        <td colspan="8">
+            <ul>
+                <f:if condition="{main.myPeergroup->f:count()}">
+                    <f:then>
+                        <f:for each="{main.myPeergroup}" as="peer">
+                            <li>
+                                <f:render partial="Main/Row/SingleRelationData"
+                                          section="Main"
+                                          arguments="{main:peer}"
+                                />
+                            </li>
+                        </f:for>
+                    </f:then>
+                    <f:else>
+                        <li>
+                            <f:translate key="tx_simpledataedittest_domain_model_main.my_peer.noData"/>
+                        </li>
+                    </f:else>
+                </f:if>
+            </ul>
+        </td>
+    </tr>
+</f:section>
+</body>
+</html>

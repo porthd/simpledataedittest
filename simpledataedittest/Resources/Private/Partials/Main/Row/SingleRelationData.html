@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:simpledataedit="http://www.mobger.de/ns-simpledataedit-typo3-extension"
+      data-namespace-typo3-fluid="true">
+<head>
+    <title> template list of values in table </title>
+    <!--
+        /**
+        *
+        * This file is part of the "dreipunktnull Glossar" Extension for TYPO3 CMS.
+        *
+        * For the full copyright and license information, please read the
+        * LICENSE.txt file that was distributed with this source code.
+        * This  is part of the example-extension `simpledataedittest`.
+        *
+        * (c) Mai 2021 Dr. Dieter Porth <info@mobger.de> - Freelancer, Bremen.
+        *
+        ***/
+    -->
+</head>
+<body>
+<f:section name="Main">
+
+    <table class="tx_simpledataedittest subtable">
+        <colgroup>
+            <col span="2">
+            <col span="5">
+        </colgroup>
+        <tr>
+            <th scope="col">
+                <f:translate key="general.partial.relatedObject.field.title"/>
+            </th>
+            <th scope="col">
+                <f:translate key="general.partial.relatedObject.field.description"/>
+            </th>
+        </tr>
+        <tr>
+            <td>{main.title}</td>
+            <td>{main.description}</td>
+        </tr>
+    </table>
+</f:section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+###########################################################################
+# no condition                                                            #
+# because you should use in only in an extending-template for some tests  #
+###########################################################################
+
+simpledataedittest {
+  lib {
+    contentElement {
+      partialRootPaths.7387 = EXT:simpledataedittest/Resources/Private/Partials/FluidElements/
+      layoutRootPaths.7387 = EXT:simpledataedittest/Resources/Private/Layouts/FluidElements/
+      templateRootPaths.7387 = EXT:simpledataedittest/Resources/Private/Templates/FluidElements/
+    }
+  }
+
+  fluidtemplate {
+    templateName = SimpledataeditTest
+    templateRootPath = EXT:simpledataedittest/Resources/Private/Templates/Page/
+    layoutRootPath = EXT:simpledataedittest/Resources/Private/Layouts/Page/
+    partialRootPath = EXT:simpledataedittest/Resources/Private/Partials/Page/
+  }
+
+}
+
+###########################################################################
+# plugin lister definition                                                #
+###########################################################################
+plugin.tx_simpledataedittest_lister {
+    view {
+        # cat=plugin.tx_simpledataedittest_lister/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:simpledataedittest/Resources/Private/Templates/Main/
+        # cat=plugin.tx_simpledataedittest_lister/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:simpledataedittest/Resources/Private/Partials/Main/
+        # cat=plugin.tx_simpledataedittest_lister/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:simpledataedittest/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_simpledataedittest_lister//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+###########################################################################
+# plugin lister definition                                                #
+###########################################################################
+plugin.tx_simpledataedittest_factorize {
+    view {
+        # cat=plugin.tx_simpledataedittest_factorize/file; type=string; label=Path to template root (FE) for fun-plugin factorize
+        templateRootPath = EXT:simpledataedittest/Resources/Private/Templates/Factorize/
+        # cat=plugin.tx_simpledataedittest_factorize/file; type=string; label=Path to template partials (FE) for fun-plugin factorize
+        partialRootPath = EXT:simpledataedittest/Resources/Private/Partials/Factorize/
+        # cat=plugin.tx_simpledataedittest_factorize/file; type=string; label=Path to template layouts (FE) for fun-plugin factorize
+        layoutRootPath = EXT:simpledataedittest/Resources/Private/Layouts/Factorize/
+    }
+}
